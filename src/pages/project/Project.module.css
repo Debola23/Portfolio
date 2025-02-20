@@ -89,8 +89,8 @@
     margin-bottom: 2rem;
 }
 .projectBox{
-    width: 20rem;
-    height: 32rem;
+    width: 22rem;
+    height: auto;
     background-color: #ffffff;
 }
 .projectPic{
@@ -107,11 +107,16 @@
 }
 .p2{
     color:#555;
+    align-items: center;
+    display: flex;
+    font-family: 'Helvetica Neue';
 }
 .p3{
     margin-top: 2rem;
     font-size:1.2rem;
-    font-family: 'Helvetica Neue'
+    font-family: 'Helvetica Neue';
+    align-items: center;
+    display: flex;
 }
 .p4{
     margin-top: 2rem;
@@ -127,6 +132,10 @@
 }
 .projectLink{
     text-decoration: none;
+}
+.plus{
+    height: 3rem;
+    width: 3rem;
 }
 @media screen and (max-width: 1270px){
     .container {
@@ -167,6 +176,12 @@
     .container{
         height: 86rem;
     }
+    .title{
+        font-size: 3.5rem;
+      }
+      .description{
+        font-size: 1rem;
+      }
 }
 @media screen and (max-width: 460px){
     .projectBox{
@@ -176,6 +191,13 @@
     }
     .container{
         height: 86rem;
+    }
+    .p3{
+        margin-top: 2rem;
+        font-size:1rem;
+        font-family: 'Helvetica Neue';
+        align-items: center;
+        display: flex;
     }
 }
 @media screen and (max-width: 370px){
