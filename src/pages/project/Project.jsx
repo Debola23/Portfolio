@@ -11,9 +11,7 @@ export const Project = () => {
         <div className={Styles.Main}>
             <section className={Styles.container}>
               <div className={Styles.content}>
-                <motion.h2 variants={SlideRight (0.6)} initial="hidden" animate="visible" className={Styles.title}>
-                   <span className={Styles.sap}>Hello, I&apos;m </span>Solaja Emmanuel
-                </motion.h2>
+               
                 <motion.p variants={SlideRight (0.8)} initial="hidden" animate="visible" className={Styles.description}>
                   I enjoy experimenting and building things that I find personally interesting or useful.
                   Every project here showcases my ability to create user experiences with modern web technologies

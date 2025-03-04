@@ -1,7 +1,8 @@
 @import "../../vars.css";
 
 .container{
-    height: 42rem;
+    background-image: url(/images/background.png);
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,6 +18,7 @@
     text-wrap: balance;
     max-width: 50rem;
     padding-bottom: 1rem;
+    margin-top: 10rem;
 }
 .title{
     color: #000000;
@@ -109,6 +111,7 @@
     height: 28rem;
     position: relative;
     width: 22rem;
+    margin-top: 8rem;
 }
 @keyframes morph{
     0% {
@@ -204,6 +207,14 @@
     }
 }
 }
+@media screen and (max-width: 840px){
+  .heroPic{
+    margin-top: 3rem;
+  }
+  .content{
+    margin-top: 2rem;
+  }
+}
 @media screen and (max-width: 770px) {
     .stack {
         color: #2d2e32;
@@ -283,6 +294,15 @@
     margin: 0;
     font-weight: 600;
   }
+  .content{
+    margin-top: 2rem;
+  }
+  .heroPic{
+    margin-top: 3rem;
+  }
+  .stack div{
+    margin-left: 34px;
+  }
 }
 @media screen and (max-width: 364px) {
   .heroPic {
@@ -306,6 +326,6 @@
     font-weight: 600;
   }
   .contactBtn{
-    margin-top: 29rem;
+    margin-top: 6rem;
   }
 }

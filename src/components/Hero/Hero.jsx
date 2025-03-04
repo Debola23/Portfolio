@@ -46,16 +46,16 @@ export const Hero = () => {
           <motion.h2 variants={SlideRight(1.0)} initial="hidden" whileInView="visible" className={Styles.title}>
               <span className={Styles.sap}>Hello, I&apos;m </span>Solaja Emmanuel
           </motion.h2>
-          <motion.p variants={SlideRight(1.2)} initial="hidden" whileInView="visible"  className={Styles.description}>
+          <motion.p variants={SlideRight(1.1)} initial="hidden" whileInView="visible"  className={Styles.description}>
               I&apos;m Front-end React Developer with an interest in creating responsive user friendly websites. 
               My aim is creating high-performance user interfaces with the use of various modern web technologies,i enjoy turning ideas into reality through a neat and maintainable code.
               I am excited to bring my knowledge and experience to a team and contribute to a company&apos;s success.
           </motion.p>
-          <motion.a variants={SlideRight(1.3)} initial="hidden" whileInView="visible" href="/resume.pdf" target="_blank" className={Styles.contactBtn}>
+          <motion.a variants={SlideRight(1.2)} initial="hidden" whileInView="visible" href="/resume.pdf" target="_blank" className={Styles.contactBtn}>
               <button className={Styles.button}>View Resume</button>
           </motion.a>
         </div>
-        <motion.div variants={SlideLeft(1.6)} initial="hidden" whileInView="visible" className={Styles.aPic}>
+        <motion.div variants={SlideRight(1.3)} initial="hidden" whileInView="visible" className={Styles.aPic}>
           <img src={webdevsvg} className={Styles.abtPic} />
         </motion.div>
       </section>
