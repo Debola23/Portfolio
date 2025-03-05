@@ -17,7 +17,7 @@ export const Hero = () => {
               </span>
           </motion.h2>
           <motion.p variants={SlideRight (1.0)} initial="hidden" animate="visible" className={Styles.description}>
-              Hi, I&apos;m Solaja Emmanuel. A passionate Front end React Developer based in Lagos, Nigeria. 📍
+              Hi, I&apos;m Solaja Emmanuel. A passionate Front-end React Developer based in Lagos, Nigeria. 📍
           </motion.p>
           <motion.a variants={SlideRight (1.4)} initial="hidden" animate="visible" href="mailto:emmanueladebola98@gmail.com" className={Styles.contactBtn}>
             <button className={Styles.button}>Contact</button>
