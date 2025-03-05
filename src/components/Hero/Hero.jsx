@@ -51,7 +51,7 @@ export const Hero = () => {
               My aim is creating high-performance user interfaces with the use of various modern web technologies,i enjoy turning ideas into reality through a neat and maintainable code.
               I am excited to bring my knowledge and experience to a team and contribute to a company&apos;s success.
           </motion.p>
-          <motion.a variants={SlideRight(1.2)} initial="hidden" whileInView="visible" href="/resume.pdf" target="_blank" className={Styles.contactBtn}>
+          <motion.a variants={SlideRight(1.1)} initial="hidden" whileInView="visible" href="/resume.pdf" target="_blank" className={Styles.contactBtn}>
               <button className={Styles.button}>View Resume</button>
           </motion.a>
         </div>
